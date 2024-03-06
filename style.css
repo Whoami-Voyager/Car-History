@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    margin: 0%;
+}
+
+nav>a>img {
+    width: 8vw;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 5%;
+    transition: padding 0.3s ease-out;
+}
+
+#navigation {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 95%;
+    background-color: #c1a367;
+    transition: width 0.3s ease-out;
+}
+
+#banner>img {
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+    margin: 0%, 0%, 0%, 0%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 1vw;
+    font-family: "Gill Sans", sans-serif;
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5vw;
+}
